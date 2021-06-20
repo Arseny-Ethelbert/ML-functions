@@ -330,7 +330,7 @@ class BestClassifier():
 
 class BestMultiClassifier():
 
-    def __init__(self, X_train, X_test, transformer=None):
+    def __init__(self, X_train, y_train, transformer=None):
         self.X_train = X_train
         self.y_train = y_train
         self.transformer = transformer
